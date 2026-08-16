@@ -17,7 +17,7 @@ public class Recursion {
             twoStep = Min(n-2,height) + Math.abs(height[n] - height[n-2]);
         }
 
-        return Math.max(oneStep,twoStep);
+        return Math.min(oneStep,twoStep);
     }
     public static void main(String[] args){
 
